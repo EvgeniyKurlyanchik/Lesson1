@@ -4,7 +4,7 @@ public  class HomeWorkApp {
 public static void main(String[] args) {
         printThreeWords(args);
         checkSumSign();
-        printColor(200);
+        printColor(400);
         compareNumbers(1, 10);
         }
 
@@ -28,7 +28,7 @@ public static void printColor(int value) {
 
         if (value <= 0) {
         System.out.println("Красный");
-        } else if (value > 0 && value <= 100) {
+        } else if ((value > 0) && value <= 100) {
         System.out.println("Жёлтый");
         } else {
         System.out.println("Зеленый ");
@@ -37,7 +37,7 @@ public static void printColor(int value) {
 
 public static void compareNumbers(int a, int b) {
         if (a >= b) {
-        System.out.println("a>=b ");
+        System.out.println("a>= b ");
 
         } else {
         System.out.println("a < b");
