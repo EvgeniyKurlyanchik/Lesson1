@@ -10,7 +10,7 @@ public class MainApp {
         personArr[2] = new Worker("Semenov_Semen", "engineer", "semenov@mail.ru", "+79151234578",
                 50000, 43);
         personArr[3] = new Worker("Vasyakin_Vasya", "manager", "vasya@mail.ru", "+79991234578",
-                50000, 39);
+                50000, 99);
         personArr[4] = new Worker("Petrov_Petr", "manager", "petrov@mail.ru", "+79051234578",
                 50000, 52);
 
