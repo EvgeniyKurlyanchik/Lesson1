@@ -1,7 +1,5 @@
 package ru.geekbrains.lesson7;
 
-import ru.geekbrains.lesson5.Worker;
-
 public class MainApp {
     private static int TIME = 0;
 
