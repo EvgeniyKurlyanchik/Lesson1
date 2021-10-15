@@ -36,7 +36,7 @@ public class Cat {
 
     public void eat(Plate p) {
         p.decreaseFood(appetite);
-        satiety += satietyTime;
+        satiety +=satietyTime;
     }
 
 
